@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "template",
+  "templates_folder": "templates",
   "templates_pairs": [
     [
       "",
@@ -16,23 +16,23 @@
   "folder_templates": [
     {
       "folder": "journal/sprint",
-      "template": "template/sprint-template.md"
+      "template": "templates/sprint-template.md"
     },
     {
       "folder": "journal/tasks",
-      "template": "template/task-template.md"
+      "template": "templates/task-template.md"
     },
     {
       "folder": "notes/scratch",
-      "template": "template/scratch-template.md"
+      "template": "templates/scratch-template.md"
     },
     {
       "folder": "projects",
-      "template": "template/idea-template.md"
+      "template": "templates/idea-template.md"
     },
     {
-      "folder": "encyclopedia/cheatsheet",
-      "template": "template/cheatsheet-template.md"
+      "folder": "notes/cheatsheet",
+      "template": "templates/cheatsheet-template.md"
     }
   ],
   "syntax_highlighting": true,

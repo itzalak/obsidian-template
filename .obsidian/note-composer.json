@@ -1,4 +1,4 @@
 {
   "askBeforeMerging": true,
-  "template": "template/scratch-template"
+  "template": "templates/scratch-template"
 }
