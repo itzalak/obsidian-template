@@ -20,10 +20,11 @@ An added benefit would be to be able to easily sync with smartphone - without co
 Obsidian saves notes in markdown format in a vault - or folder - where it also stores all the configuration and plugins.
 ## Features
 
-* Create zettlekasten style notes based on template [[scratch-template]]
-* Write down ideas of projects I want to try via template [[idea-template]]
-* Maintain a journal under `journal/sprint` and connected tasks under `journal/tasks
-* Be able to edit and adjust outside of obsidian.
+* Create zettlekasten style notes based on template [[scratch-template]], unfinished notes go under `notes/scratch` directory, definitive notes under `notes`
+* Write down and maintain a list project ideas via template [[idea-template]] under `procject` directory
+* Maintain a journal under `journal/sprint` directory and connected with tasks under `journal/tasks` directory using [[sprint-template]] and [[task-template]]
+* Curate important snippets like commands and dictionary under `encyclopedia` directory
+* Configuration and template should be usable as markdown files outside of obsidian (this might conflict with templater scripts!)
 
 ## Community Plugins
 

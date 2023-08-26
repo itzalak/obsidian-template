@@ -23,12 +23,16 @@
       "template": "template/task-template.md"
     },
     {
-      "folder": "scratch",
+      "folder": "notes/scratch",
       "template": "template/scratch-template.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "projects",
+      "template": "template/idea-template.md"
+    },
+    {
+      "folder": "encyclopedia/cheatsheet",
+      "template": "template/cheatsheet-template.md"
     }
   ],
   "syntax_highlighting": true,
