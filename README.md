@@ -1,7 +1,5 @@
 # Obsidian zettlekasten notes
 
-version: 0.1
-
 ## Table of contents
 
 * [Introduction](#introduction)
