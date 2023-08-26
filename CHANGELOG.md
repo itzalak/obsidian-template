@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/simao-ferreira/obsidian-template/compare/v1.0.0...v1.1.0) (2023-08-26)
+
+
+### Features
+
+* **readme:** Correct readme file links ([a16bd8a](https://github.com/simao-ferreira/obsidian-template/commit/a16bd8a6c8911795f962446725a27a1a4adcbc1d))
+
 ## 1.0.0 (2023-08-26)
 
 
