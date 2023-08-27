@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/simao-ferreira/obsidian-template/compare/v1.2.0...v1.3.0) (2023-08-27)
+
+
+### Features
+
+* **obsidian:** Add plugins and workspace settings, update template and structure, add book notes and backlog ([25e1c32](https://github.com/simao-ferreira/obsidian-template/commit/25e1c326c92d757c4769cfdca9be677eb186215b))
+
 ## [1.2.0](https://github.com/simao-ferreira/obsidian-template/compare/v1.1.0...v1.2.0) (2023-08-26)
 
 
