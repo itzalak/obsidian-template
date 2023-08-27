@@ -1,4 +1,9 @@
 [
   "templater-obsidian",
-  "obsidian-dictionary-plugin"
+  "obsidian-dictionary-plugin",
+  "obsidian-excalidraw-plugin",
+  "cmdr",
+  "quickadd",
+  "obsidian-book-search-plugin",
+  "dataview"
 ]

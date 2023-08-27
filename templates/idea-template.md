@@ -1,6 +1,7 @@
 # {{Idea}}
 
 date: {{date}}
+
 tags:%% {{#tagone}}, {{#tagtwo}}%%
 
 %%{{description}}%%

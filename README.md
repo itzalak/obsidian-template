@@ -5,50 +5,100 @@
 * [Introduction](#introduction)
 * [Features](#features)
 * [Structure](#structure)
+* [Notes](#notes)
 * [Community Plugins](#community-plugins)
 * [Technologies](#technologies)
 
 ## Introduction
 
-Obsidian is a flexible note taking app that allows me to use my current zettlekasten template and markdown type file to save notes.
+Obsidian is a flexible note taking app that allows me to use my current zettlekasten template and markdown type file to
+save notes.
 
-The goal is to use flexibly obsidian and zettlekasten to save notes and using a generic markdown file based on a defined template and save it using a git repository.
+The goal is to use flexibly obsidian and zettlekasten to save notes and using a generic markdown file based on a defined
+template and save it using a git repository.
 
-An added benefit would be to be able to easily sync with smartphone - without cost.
+Obsidian saves notes in
+a [flavour of Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) format in a vault -
+a directory - where it also stores all the configuration and plugins.
 
-Obsidian saves notes in markdown format in a vault - or folder - where it also stores all the configuration and plugins.
 ## Features
 
-* Create zettlekasten style notes based on [scratch](/templates/scratch-template.md) template, unfinished notes go under `notes/scratch` directory, definitive notes under `notes/zettlekasten`
-* Write down and maintain a list project ideas via [idea](/templates/idea-template.md) template under `project` directory
-* Maintain a journal under `journal/sprint` directory and connected with tasks under `journal/tasks` directory using [sprint](/templates/sprint-template.md) and [task](/templates/task-template.md) templates
-* Curate important snippets like commands and dictionary under `notes` directory
-* Configuration and template should be usable as markdown files outside of obsidian (this might conflict with templater scripts!)
+* Create zettlekasten style scratch notes based on [scratch](/templates/scratch-template.md) template, when note is
+  definitive it becomes a zettlekasten, and it is moved to `notes/zettlekasten`
+* Write down and maintain a list project ideas via [idea](/templates/idea-template.md) template under `notes/project`
+  directory
+* Maintain a ongoing working journal with sprints, tasks, diagrams and meetings using specific templates and excalidraw
+* Curate important snippets like commands cheatsheets and dictionary under `notes` directory
+* Configuration and template should be usable as markdown files outside of obsidian (this might conflict with templater
+  scripts!)
+
+### Obsidian exclusive
+
+* Book notes and management using book search plugin and dataview for presentation (not possible to maintain outside
+  obsidian)
+
 ## Structure
 
 ```
+├── assets
+├── books
+│     ├── bookshelf.md
+│     ├── The Clean Coder - Robert C Martin.md
+│     └── The Pragmatic Programmer - David Thomas Andrew Hunt.md
 ├── journal
-│   ├── sprint
-│   └── tasks
+│     ├── backlog.md
+│     ├── diagrams
+│     ├── meetings
+│     ├── sprint
+│     └── tasks
 ├── notes
-│   ├── cheatsheet
-│   ├── dictionary
-│   ├── scratch
-│   └── zettlekasten
-├── projects
+│     ├── cheatsheet
+│     ├── dictionary
+│     ├── projects
+│     ├── scratch
+│     └── zettlekasten
 └── templates
-    ├── cheatsheet-template.md
-    ├── idea-template.md
-    ├── scratch-template.md
-    ├── sprint-template.md
-    └── task-template.md
+      ├── book-template.md
+      ├── cheatsheet-template.md
+      ├── idea-template.md
+      ├── meeting-template.md
+      ├── scratch-template.md
+      ├── sprint-template.md
+      └── task-template.md
 ```
 
+## Notes
+
+1. [Obsidian Markdown Flavour](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) is different
+   from other common flavours and does not support full scope of features, some conflicts will occur when using
+   automation and when using other editors to change text
+2. Obsidian allows dictionaries through community plugins, but they are limited by comparison to Grammarly or even
+   Jetbrains tools
+3. Using git to sync the vault requires the use of `.gitkeep` files otherwise the directory structure will not be synced
+4. The existent [pre-commit](/.pre-commit-config.yaml) requires the exclusion of the `.obsidian` directory to avoid
+   constant conflicts
+5. Workspace configuration is excluded from git sync through `.gitignore` to prevent conflict
 
 ## Community Plugins
 
 * [Dictionary](https://github.com/phibr0/obsidian-dictionary)
 * [Templater](https://github.com/SilentVoid13/Templater)
+* [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+* [Commander](https://github.com/phibr0/obsidian-commander)
+* [Quick Add](https://github.com/chhoumann/quickadd)
+* [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+* [Book Search](https://github.com/anpigon/obsidian-book-search-plugin)
+
+### Others
+
+Multiple other plugins not included that can be useful or interesting to include in obsidian workflow.
+
+* [Calibre](https://github.com/caronchen/obsidian-calibre-plugin) - read and take notes using calibre server
+* [Advanced slides](https://github.com/MSzturc/obsidian-advanced-slides) - markdown slides
+* [Advanced tables](https://github.com/tgrosinger/advanced-tables-obsidian) - handle markdown tables
+* [Kanban](https://github.com/mgmeyers/obsidian-kanban)
+* [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) - open and annotate pdf and epub files
+* [Projects](https://github.com/marcusolsson/obsidian-projects) - project management
 
 ## Technologies
 

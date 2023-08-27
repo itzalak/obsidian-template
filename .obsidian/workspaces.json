@@ -1,0 +1,159 @@
+{
+  "workspaces": {
+    "obsidian-backlog": {
+      "main": {
+        "id": "82769d1e16adc0c1",
+        "type": "split",
+        "children": [
+          {
+            "id": "db645199d370b715",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3b24737cb5f1f570",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "journal/backlog.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7f0265fdfc9ebee2",
+        "type": "split",
+        "children": [
+          {
+            "id": "df8962f6da163e1c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d5b19b353addf8ae",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "38934dbfa13b262d",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "796ea1ff07a055c5",
+        "type": "split",
+        "children": [
+          {
+            "id": "3082085e69aa8af2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "50e585f6de9976ac",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0239e0267c91334c",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "journal/backlog.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "750e3c08612ff8b3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4a6f326d6fb4a291",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "journal/backlog.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "9151ff2b5d11afba",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "journal/backlog.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "zk-prefixer:Create new unique note": false,
+          "cmdr:QuickAdd: new-cheatsheet": false,
+          "cmdr:QuickAdd: new-project": false,
+          "cmdr:QuickAdd: new-sprint": false,
+          "cmdr:QuickAdd: new-task": false,
+          "cmdr:QuickAdd: new-meeting": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templates:Insert template": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "3b24737cb5f1f570"
+    }
+  },
+  "active": "obsidian-backlog"
+}

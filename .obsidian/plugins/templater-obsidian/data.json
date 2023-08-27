@@ -27,12 +27,16 @@
       "template": "templates/scratch-template.md"
     },
     {
-      "folder": "projects",
+      "folder": "notes/projects",
       "template": "templates/idea-template.md"
     },
     {
       "folder": "notes/cheatsheet",
       "template": "templates/cheatsheet-template.md"
+    },
+    {
+      "folder": "journal/meetings",
+      "template": "templates/meeting-template.md"
     }
   ],
   "syntax_highlighting": true,

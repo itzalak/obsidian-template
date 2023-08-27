@@ -1,7 +1,9 @@
 # %%{{Task}}%%
 
 date: {{date}} to %%{{end-date}}%%
+
 tags:%% {{#tagone}}, {{#tagtwo}}%%
+
 sprint: %%[[link/to/sprint/note]]%%
 
 ---

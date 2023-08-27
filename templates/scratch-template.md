@@ -1,6 +1,7 @@
 # %%{{Topic}}%%
 
 date: {{date}}
+
 tags:%% {{#tagone}}, {{#tagtwo}}%%
 
 ---

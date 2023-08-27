@@ -1,0 +1,64 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:2c9407eb-e8bc-4bf6-a20e-4c9dc2df8bc1",
+      "icon": "album",
+      "name": "QuickAdd: new-task",
+      "mode": "any",
+      "color": "#000000"
+    },
+    {
+      "id": "quickadd:choice:d8969720-cab1-4f2c-940b-10326f88f0d5",
+      "icon": "archive",
+      "name": "QuickAdd: new-sprint",
+      "mode": "any",
+      "color": "#000000"
+    },
+    {
+      "id": "quickadd:choice:6ccbf5ec-a19b-485f-bfbb-6559f2e027ad",
+      "icon": "video",
+      "name": "QuickAdd: new-meeting",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:1c5c8c2f-38e0-42c6-a08a-c7f9003bf16c",
+      "icon": "github",
+      "name": "QuickAdd: new-project",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:1644b6e5-d301-4411-aa6b-9097cba3684c",
+      "icon": "terminal-square",
+      "name": "QuickAdd: new-cheatsheet",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Templater"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

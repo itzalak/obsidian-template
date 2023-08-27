@@ -1,0 +1,13 @@
+{
+  "folder": "books",
+  "fileNameFormat": "{{title}} - {{author}}",
+  "frontmatter": "",
+  "content": "",
+  "useDefaultFrontmatter": true,
+  "defaultFrontmatterKeyType": "Snake Case",
+  "templateFile": "templates/book-template.md",
+  "serviceProvider": "google",
+  "naverClientId": "",
+  "naverClientSecret": "",
+  "localePreference": "default"
+}

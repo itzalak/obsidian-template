@@ -1,7 +1,9 @@
 # %%{{Goal}}%%
 
 date: {{date}} to %%{{end-date}}%%
+
 tags: #sprint, %% {{#tagone}}, {{#tagtwo}}%%
+
 tasks: %%[[link/to/task/note]]%%
 
 ---
