@@ -1,5 +1,5 @@
 {
-  "confirmDeletion": true,
+  "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [],
@@ -7,15 +7,8 @@
   "leftRibbon": [
     {
       "id": "quickadd:choice:2c9407eb-e8bc-4bf6-a20e-4c9dc2df8bc1",
-      "icon": "album",
+      "icon": "clipboard-list",
       "name": "QuickAdd: new-task",
-      "mode": "any",
-      "color": "#000000"
-    },
-    {
-      "id": "quickadd:choice:d8969720-cab1-4f2c-940b-10326f88f0d5",
-      "icon": "archive",
-      "name": "QuickAdd: new-sprint",
       "mode": "any",
       "color": "#000000"
     },
@@ -26,15 +19,21 @@
       "mode": "any"
     },
     {
-      "id": "quickadd:choice:1c5c8c2f-38e0-42c6-a08a-c7f9003bf16c",
-      "icon": "github",
-      "name": "QuickAdd: new-project",
-      "mode": "any"
-    },
-    {
       "id": "quickadd:choice:1644b6e5-d301-4411-aa6b-9097cba3684c",
       "icon": "terminal-square",
       "name": "QuickAdd: new-cheatsheet",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-projects:show-projects",
+      "icon": "archive",
+      "name": "show-projects",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:ef116268-c220-4999-9e64-b91226114e1a",
+      "icon": "flask-conical",
+      "name": "QuickAdd: new-epic",
       "mode": "any"
     }
   ],
@@ -47,7 +46,8 @@
   "hide": {
     "statusbar": [],
     "leftRibbon": [
-      "Templater"
+      "Templater",
+      "Open projects"
     ]
   },
   "spacing": 8,

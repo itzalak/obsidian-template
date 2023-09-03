@@ -1,5 +1,5 @@
 ---
-tag: 📚Book
+tags: ["#book"]
 title: "The Pragmatic Programmer"
 author: [David Thomas, Andrew Hunt]
 publisher: Addison-Wesley Professional

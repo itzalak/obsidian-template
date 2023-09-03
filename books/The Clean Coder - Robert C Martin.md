@@ -1,5 +1,5 @@
 ---
-tag: 📚Book
+tags: ["#book"]
 title: "The Clean Coder"
 author: [Robert C. Martin]
 publisher: Pearson Education

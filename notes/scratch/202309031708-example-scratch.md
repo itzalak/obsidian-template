@@ -1,6 +1,6 @@
-# {{title}}
+# 202309031708
 
-date: {{date}}
+date: 2023-09-03
 
 tags: #scratch-template
 

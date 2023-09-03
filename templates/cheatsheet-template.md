@@ -1,13 +1,14 @@
-# %%{{command}}%%
+# {{name}}
 
-tags:%% {{#tagone}}, {{#tagtwo}}%%
+tags: #cheatsheet-template
 
 ---
 
-> %%{{description}}%%
+> (summary here)
 > More information: <https://link.to>
 
 ---
 
-- %%{{description of the action}}%%
-` command instruction`
+- (description of the action)
+
+`command instruction`

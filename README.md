@@ -25,12 +25,9 @@ a directory - where it also stores all the configuration and plugins.
 
 * Create zettlekasten style scratch notes based on [scratch](/templates/scratch-template.md) template, when note is
   definitive it becomes a zettlekasten, and it is moved to `notes/zettlekasten`
-* Write down and maintain a list project ideas via [idea](/templates/idea-template.md) template under `notes/project`
-  directory
-* Maintain a ongoing working journal with sprints, tasks, diagrams and meetings using specific templates and excalidraw
-* Curate important snippets like commands cheatsheets and dictionary under `notes` directory
-* Configuration and template should be usable as markdown files outside of obsidian (this might conflict with templater
-  scripts!)
+* Write down and maintain a list project ideas, tasks, meeting notes, diagrams, etc, via templates. Details in the [[backlog/README|backlog readme]] - example notes exist under backlog directories for saving project views configuration.
+* Curate important snippets like commands cheatsheets and cookbook actions under `notes` directory
+* Configuration and template should be usable as markdown files outside of obsidian (TODO)
 
 ### Obsidian exclusive
 
@@ -40,30 +37,27 @@ a directory - where it also stores all the configuration and plugins.
 ## Structure
 
 ```
-├── assets
+├── backlog
+│   ├── README.md
+│   ├── archive
+│   ├── stack
+│   └── tasks
+├── bin
 ├── books
-│     ├── bookshelf.md
-│     ├── The Clean Coder - Robert C Martin.md
-│     └── The Pragmatic Programmer - David Thomas Andrew Hunt.md
-├── journal
-│     ├── backlog.md
-│     ├── diagrams
-│     ├── meetings
-│     ├── sprint
-│     └── tasks
+│   ├── The Clean Coder - Robert C Martin.md
+│   ├── The Pragmatic Programmer - David Thomas Andrew Hunt.md
+│   └── bookshelf.md
 ├── notes
 │     ├── cheatsheet
-│     ├── dictionary
-│     ├── projects
+│     ├── cookbook
 │     ├── scratch
 │     └── zettlekasten
 └── templates
       ├── book-template.md
       ├── cheatsheet-template.md
-      ├── idea-template.md
+      ├── epic-template.md
       ├── meeting-template.md
       ├── scratch-template.md
-      ├── sprint-template.md
       └── task-template.md
 ```
 
@@ -81,11 +75,11 @@ a directory - where it also stores all the configuration and plugins.
 
 ## Community Plugins
 
-* [Dictionary](https://github.com/phibr0/obsidian-dictionary)
 * [Templater](https://github.com/SilentVoid13/Templater)
 * [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 * [Commander](https://github.com/phibr0/obsidian-commander)
 * [Quick Add](https://github.com/chhoumann/quickadd)
+* [Projects](https://github.com/marcusolsson/obsidian-projects)
 * [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 * [Book Search](https://github.com/anpigon/obsidian-book-search-plugin)
 
@@ -98,10 +92,8 @@ Multiple other plugins not included that can be useful or interesting to include
 * [Advanced tables](https://github.com/tgrosinger/advanced-tables-obsidian) - handle markdown tables
 * [Kanban](https://github.com/mgmeyers/obsidian-kanban)
 * [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) - open and annotate pdf and epub files
-* [Projects](https://github.com/marcusolsson/obsidian-projects) - project management
 
 ## Technologies
 
 * [Obsidian](https://obsidian.md/)
 * [Zettlekasten](https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/)
-* [Templater Documentation](https://silentvoid13.github.io/Templater/)

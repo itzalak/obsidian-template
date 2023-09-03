@@ -1,0 +1,236 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "templates/epic-template.md",
+        "templates/task-template.md",
+        "templates/meeting-template.md"
+      ],
+      "excludedNotes": [
+        "backlog/README.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "backlog",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 275,
+                "hide": false
+              },
+              "tags": {
+                "width": 642
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "priority",
+                  "operator": "eq",
+                  "enabled": true,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "priority",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "f101d96e-c9b8-4cca-8c82-1bc78722c093",
+          "name": "Backlog",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 459
+              },
+              "archival date": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "contains",
+                "enabled": true,
+                "value": "backlog/tasks"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#fa0000",
+                "condition": {
+                  "field": "priority",
+                  "operator": "eq",
+                  "enabled": true,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "priority",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "d12ec360-fb04-4158-8c0e-217c9e614d6f",
+          "name": "Ongoing",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 316,
+                "hide": true
+              },
+              "tags": {
+                "width": 399
+              },
+              "archival date": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "contains",
+                "enabled": true,
+                "value": "backlog/archive"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "archival date",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "52affb3f-c4c7-43fa-9e6b-e8e4d4843453",
+          "name": "Archive",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "idea": {
+                "weight": 0
+              },
+              "todo": {
+                "weight": 1
+              },
+              "in-progress": {
+                "weight": 2
+              },
+              "done": {
+                "weight": 3
+              },
+              "archive": {
+                "weight": 4
+              }
+            },
+            "includeFields": [
+              "name",
+              "priority",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#fa0000",
+                "condition": {
+                  "field": "priority",
+                  "operator": "eq",
+                  "enabled": true,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "496c0a9d-00d7-4d4b-894a-c5f7a50b3150",
+          "name": "Kanban",
+          "type": "board"
+        }
+      ],
+      "id": "32a28d39-6b77-4502-92b5-a7d8a6323aee",
+      "name": "Backlog"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "32a28d39-6b77-4502-92b5-a7d8a6323aee",
+        "view": "496c0a9d-00d7-4d4b-894a-c5f7a50b3150"
+      },
+      {
+        "project": "32a28d39-6b77-4502-92b5-a7d8a6323aee",
+        "view": "52affb3f-c4c7-43fa-9e6b-e8e4d4843453"
+      },
+      {
+        "project": "32a28d39-6b77-4502-92b5-a7d8a6323aee",
+        "view": "d12ec360-fb04-4158-8c0e-217c9e614d6f"
+      },
+      {
+        "project": "32a28d39-6b77-4502-92b5-a7d8a6323aee",
+        "view": "f101d96e-c9b8-4cca-8c82-1bc78722c093"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}

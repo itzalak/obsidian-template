@@ -1,49 +1,19 @@
 {
   "choices": [
     {
-      "id": "d8969720-cab1-4f2c-940b-10326f88f0d5",
-      "name": "new-sprint",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/sprint-template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "journal/sprint"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "2c9407eb-e8bc-4bf6-a20e-4c9dc2df8bc1",
       "name": "new-task",
       "type": "Template",
       "command": true,
       "templatePath": "templates/task-template.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "{{name}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "journal/tasks"
+          "backlog/tasks"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -67,13 +37,14 @@
       "command": true,
       "templatePath": "templates/meeting-template.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "meeting-{{name}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "journal/meetings"
+          "backlog/tasks",
+          "backlog/archive"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -91,19 +62,19 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "1c5c8c2f-38e0-42c6-a08a-c7f9003bf16c",
-      "name": "new-project",
+      "id": "ef116268-c220-4999-9e64-b91226114e1a",
+      "name": "new-epic",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/idea-template.md",
+      "templatePath": "templates/epic-template.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "epic-{{name}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "notes/projects"
+          "backlog/stack"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

@@ -1,5 +1,5 @@
 ---
-tag: 📚Book
+tags: ["#book"]
 title: "{{title}}"
 author: [{{author}}]
 publisher: {{publisher}}
@@ -17,8 +17,8 @@ updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 
 # {{title}}
 
-tags:%% {{#tagone}}, {{#tagtwo}}%%
+tags: #book-template
 
 ## Notes
 
-*  %% Note %%
+*  (note)

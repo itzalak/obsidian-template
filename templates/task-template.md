@@ -1,39 +1,20 @@
-# %%{{Task}}%%
-
-date: {{date}} to %%{{end-date}}%%
-
-tags:%% {{#tagone}}, {{#tagtwo}}%%
-
-sprint: %%[[link/to/sprint/note]]%%
-
 ---
+status: todo
+creation date: {{date}}
+archival date:
+priority: 0
+tags: ["#backlog", "#task"]
+---
+# {{name}}
+
 ## Description
 
-%%{{description}}%%
+(to be described)
 
-## Breakdown
-
-* [ ] {{reproduce}}
-* [ ] {{tests}}
-	* [ ] ...
-	* [ ] ...
-* [ ] ...
-
-## Notes
-
-%%{{notes}}%%
 ## Todo
 
-%%{{todo}}%%
+* [ ] (todo 1)
 
-## Stacktrace
+## Links
 
-```
-%% %%
-```
-
----
-## References
-
-1. %%[reference-one](link)%%
-2. %% reference two title, author, edition %%
+* [[links]]

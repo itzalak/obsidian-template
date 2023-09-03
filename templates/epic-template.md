@@ -1,24 +1,25 @@
 ---
-status: archive
+status: idea
 creation date: {{date}}
 archival date:
 priority: 0
-tags: ['#backlog', '#meetingnotes']
+tags: ['#backlog', '#epic']
 ---
 # {{name}}
 
-## Description
-
 (to be described)
 
-## Notes
+## Requirements
 
-* (to be added here)
+* (to be defined)
 
-## Outcome
+## Technology
 
-* [ ] (action 1)
-* [ ] (action 2)
+* (to be defined)
+
+## Links
+
+* [ ] [[Add tasks here]]
 
 ---
 ## References

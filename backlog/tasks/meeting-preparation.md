@@ -1,11 +1,11 @@
 ---
-status: archive
-creation date: {{date}}
+status: todo
+creation date: 2023-09-03
 archival date:
 priority: 0
 tags: ['#backlog', '#meetingnotes']
 ---
-# {{name}}
+# preparation
 
 ## Description
 

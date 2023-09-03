@@ -1,24 +1,22 @@
 {
   "workspaces": {
-    "obsidian-backlog": {
+    "backlog-view": {
       "main": {
         "id": "82769d1e16adc0c1",
         "type": "split",
         "children": [
           {
-            "id": "db645199d370b715",
+            "id": "0c903cec8ce59227",
             "type": "tabs",
             "children": [
               {
-                "id": "3b24737cb5f1f570",
+                "id": "3d5816be5be8de85",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "journal/backlog.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "obsidian-projects",
+                  "state": {},
+                  "pinned": true
                 }
               }
             ]
@@ -89,9 +87,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "journal/backlog.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -106,7 +102,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "journal/backlog.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -123,7 +118,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "journal/backlog.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   }
@@ -138,22 +132,23 @@
       "left-ribbon": {
         "hiddenItems": {
           "switcher:Open quick switcher": false,
+          "command-palette:Open command palette": false,
           "zk-prefixer:Create new unique note": false,
           "cmdr:QuickAdd: new-cheatsheet": false,
-          "cmdr:QuickAdd: new-project": false,
-          "cmdr:QuickAdd: new-sprint": false,
           "cmdr:QuickAdd: new-task": false,
+          "cmdr:QuickAdd: new-epic": false,
           "cmdr:QuickAdd: new-meeting": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "obsidian-projects:Open projects": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
-          "templates:Insert template": false,
           "templater-obsidian:Templater": false,
+          "cmdr:show-projects": false,
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "3b24737cb5f1f570"
+      "active": "3d5816be5be8de85"
     }
   },
-  "active": "obsidian-backlog"
+  "active": "backlog-view"
 }
