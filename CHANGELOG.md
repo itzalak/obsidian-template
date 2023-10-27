@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/simao-ferreira/obsidian-template/compare/v2.0.0...v2.0.1) (2023-10-27)
+
+
+### Added
+
+* Add examples ([50ee0c4](https://github.com/simao-ferreira/obsidian-template/commit/50ee0c427726151375c892a00eee0c8973aec8db))
+
 ## [2.0.0](https://github.com/simao-ferreira/obsidian-template/compare/v1.3.0...v2.0.0) (2023-09-03)
 
 
