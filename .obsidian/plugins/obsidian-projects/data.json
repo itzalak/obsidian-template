@@ -181,7 +181,13 @@
             ]
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "archival date",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
           },
           "colors": {
             "conditions": [
