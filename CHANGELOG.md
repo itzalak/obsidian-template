@@ -1,5 +1,16 @@
 # Changelog
 
+## v3.0.0 (2023-11-29)
+
+### Breaking Change
+
+- Refactor to use commitizen
+
+### Changed
+
+- Update plugins, add theme plugin, add execute code plugin
+- Add examples
+
 ## [2.0.0](https://github.com/simao-ferreira/obsidian-template/compare/v1.3.0...v2.0.0) (2023-09-03)
 
 
