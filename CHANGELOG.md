@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.0.1 (2023-11-29)
+
+### Changed
+
+- Add archival scripts
+- Apply pre commit and mardownlint config suggestions
+
 ## v3.0.0 (2023-11-29)
 
 ### Breaking Change
