@@ -3,7 +3,9 @@ status: todo
 creation date: {{date}}
 archival date:
 priority: 0
-tags: ["#backlog", "#task"]
+tags:
+  - '#backlog'
+  - '#task'
 ---
 # {{name}}
 
@@ -13,8 +15,8 @@ tags: ["#backlog", "#task"]
 
 ## Todo
 
-* [ ] (todo 1)
+- [ ] (todo 1)
 
 ## Links
 
-* [[links]]
+- [links](links)

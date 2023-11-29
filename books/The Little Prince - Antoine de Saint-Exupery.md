@@ -14,11 +14,10 @@ updated: 2023-09-04 15:04:01
 
 ![cover|150](http://books.google.com/books/content?id=CQYg20lTHtMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 
-
 # The Little Prince
 
 tags: #book-template
 
 ## Notes
 
-*  (note)
+- (note)

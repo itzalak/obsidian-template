@@ -3,7 +3,9 @@ status: idea
 creation date: {{date}}
 archival date:
 priority: 0
-tags: ['#backlog', '#epic']
+tags:
+  - '#backlog'
+  - '#epic'
 ---
 # {{name}}
 
@@ -11,17 +13,18 @@ tags: ['#backlog', '#epic']
 
 ## Requirements
 
-* (to be defined)
+- (to be defined)
 
 ## Technology
 
-* (to be defined)
+- (to be defined)
 
 ## Links
 
-* [ ] [[Add tasks here]]
+- [ ] [Add tasks here]()
 
 ---
+
 ## References
 
 1. [add-reference-link-or-book-here]()

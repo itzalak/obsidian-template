@@ -1,5 +1,7 @@
 ---
-tags: ["#book"]
+tags:
+  - '#book'
+  - '#book-template'
 title: "{{title}}"
 author: [{{author}}]
 publisher: {{publisher}}
@@ -14,11 +16,8 @@ updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 
 ![cover|150]({{coverUrl}})
 
-
 # {{title}}
-
-tags: #book-template
 
 ## Notes
 
-*  (note)
+- (note)

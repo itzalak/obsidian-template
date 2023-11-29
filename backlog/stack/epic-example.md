@@ -13,18 +13,19 @@ Example text
 
 ## Requirements
 
-* (to be defined)
+- (to be defined)
 
 ## Technology
 
-* (to be defined)
+- (to be defined)
 
 ## Links
 
-* [ ] [[stale-task-example]]
-* [ ] [[example-task]]
+- [ ] [[stale-task-example]]
+- [ ] [[example-task]]
 
 ---
+
 ## References
 
 1. [add-reference-link-or-book-here]()

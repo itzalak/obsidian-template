@@ -14,12 +14,11 @@ updated: 2023-08-27 11:24:58
 
 ![cover|150](http://books.google.com/books/content?id=VQlvAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 
-
 # The Clean Coder
 
 tags: #cleancode, #robertmartin, #unclebob, #codestandards, #code
 
 ## Notes
 
-* How to deal with conflict
-* How to avoid burnout
+- How to deal with conflict
+- How to avoid burnout

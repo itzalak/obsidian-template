@@ -15,8 +15,8 @@ Example description
 
 ## Todo
 
-* [ ] Click here to mark as done
+- [ ] Click here to mark as done
 
 ## Links
 
-* [[links]]
+- [[links]]

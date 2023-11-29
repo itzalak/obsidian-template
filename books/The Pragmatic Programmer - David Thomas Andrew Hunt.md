@@ -14,13 +14,12 @@ updated: 2023-08-27 11:27:57
 
 ![cover|150](http://books.google.com/books/content?id=LhOlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api)
 
-
 # The Pragmatic Programmer
 
 tags: #code, #andrewhunt, #davidthomas, #tools, #duplication, #tools
 
 ## Notes
 
-* Software rot
-* Helpful tools
-* Ownership of work and career
+- Software rot
+- Helpful tools
+- Ownership of work and career

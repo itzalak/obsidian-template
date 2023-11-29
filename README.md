@@ -2,12 +2,12 @@
 
 ## Table of contents
 
-* [Introduction](#introduction)
-* [Features](#features)
-* [Structure](#structure)
-* [Notes](#notes)
-* [Community Plugins](#community-plugins)
-* [Technologies](#technologies)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Structure](#structure)
+- [Notes](#notes)
+- [Community Plugins](#community-plugins)
+- [Technologies](#technologies)
 
 ## Introduction
 
@@ -23,20 +23,20 @@ a directory - where it also stores all the configuration and plugins.
 
 ## Features
 
-* Create zettlekasten style scratch notes based on [scratch](/templates/scratch-template.md) template, when note is
+- Create zettlekasten style scratch notes based on [scratch](/templates/scratch-template.md) template, when note is
   definitive it becomes a zettlekasten, and it is moved to `notes/zettlekasten`
-* Write down and maintain a list project ideas, tasks, meeting notes, diagrams, etc, via templates. Details in the [[backlog/README|backlog readme]] - example notes exist under backlog directories for saving project views configuration.
-* Curate important snippets like commands cheatsheets and cookbook actions under `notes` directory
-* Configuration and template should be usable as markdown files outside of obsidian (TODO)
+- Write down and maintain a list project ideas, tasks, meeting notes, diagrams, etc, via templates. Details in the [[backlog/README|backlog readme]] - example notes exist under backlog directories for saving project views configuration.
+- Curate important snippets like commands cheatsheets and cookbook actions under `notes` directory
+- Configuration and template should be usable as markdown files outside of obsidian (TODO)
 
 ### Obsidian exclusive
 
-* Book notes and management using book search plugin and dataview for presentation (not possible to maintain outside
+- Book notes and management using book search plugin and dataview for presentation (not possible to maintain outside
   obsidian)
 
 ## Structure
 
-```
+```shell
 ├── backlog
 │   ├── README.md
 │   ├── archive
@@ -75,27 +75,27 @@ a directory - where it also stores all the configuration and plugins.
 
 ## Community Plugins
 
-* [Templater](https://github.com/SilentVoid13/Templater)
-* [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
-* [Commander](https://github.com/phibr0/obsidian-commander)
-* [Quick Add](https://github.com/chhoumann/quickadd)
-* [Projects](https://github.com/marcusolsson/obsidian-projects)
-* [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
-* [Book Search](https://github.com/anpigon/obsidian-book-search-plugin)
-* [Execute Code](https://github.com/twibiral/obsidian-execute-code)
-* [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
+- [Templater](https://github.com/SilentVoid13/Templater)
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+- [Commander](https://github.com/phibr0/obsidian-commander)
+- [Quick Add](https://github.com/chhoumann/quickadd)
+- [Projects](https://github.com/marcusolsson/obsidian-projects)
+- [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+- [Book Search](https://github.com/anpigon/obsidian-book-search-plugin)
+- [Execute Code](https://github.com/twibiral/obsidian-execute-code)
+- [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
 
 ### Others
 
 Multiple other plugins not included that can be useful or interesting to include in obsidian workflow.
 
-* [Calibre](https://github.com/caronchen/obsidian-calibre-plugin) - read and take notes using calibre server
-* [Advanced slides](https://github.com/MSzturc/obsidian-advanced-slides) - markdown slides
-* [Advanced tables](https://github.com/tgrosinger/advanced-tables-obsidian) - handle markdown tables
-* [Kanban](https://github.com/mgmeyers/obsidian-kanban)
-* [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) - open and annotate pdf and epub files
+- [Calibre](https://github.com/caronchen/obsidian-calibre-plugin) - read and take notes using calibre server
+- [Advanced slides](https://github.com/MSzturc/obsidian-advanced-slides) - markdown slides
+- [Advanced tables](https://github.com/tgrosinger/advanced-tables-obsidian) - handle markdown tables
+- [Kanban](https://github.com/mgmeyers/obsidian-kanban)
+- [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) - open and annotate pdf and epub files
 
 ## Technologies
 
-* [Obsidian](https://obsidian.md/)
-* [Zettlekasten](https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/)
+- [Obsidian](https://obsidian.md/)
+- [Zettlekasten](https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/)

@@ -13,14 +13,15 @@ tags: ['#backlog', '#meetingnotes']
 
 ## Notes
 
-* (to be added here)
+- (to be added here)
 
 ## Outcome
 
-* [ ] (action 1)
-* [ ] (action 2)
+- [ ] (action 1)
+- [ ] (action 2)
 
 ---
+
 ## References
 
 1. [add-reference-link-or-book-here]()
