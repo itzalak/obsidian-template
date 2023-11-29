@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.2 (2023-11-29)
+
+### Changed
+
+- Update obsidian config
+
 ## v3.0.1 (2023-11-29)
 
 ### Changed
