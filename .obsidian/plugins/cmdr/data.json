@@ -35,12 +35,6 @@
       "icon": "flask-conical",
       "name": "QuickAdd: new-epic",
       "mode": "any"
-    },
-    {
-      "id": "workspace:export-pdf",
-      "icon": "bug",
-      "name": "Export to PDF...",
-      "mode": "any"
     }
   ],
   "rightRibbon": [],

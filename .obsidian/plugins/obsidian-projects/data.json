@@ -214,6 +214,7 @@
       "name": "Backlog"
     }
   ],
+  "archives": [],
   "preferences": {
     "projectSizeLimit": 1000,
     "frontmatter": {
@@ -235,6 +236,9 @@
       {
         "project": "32a28d39-6b77-4502-92b5-a7d8a6323aee",
         "view": "f101d96e-c9b8-4cca-8c82-1bc78722c093"
+      },
+      {
+        "project": "32a28d39-6b77-4502-92b5-a7d8a6323aee"
       }
     ],
     "linkBehavior": "open-editor"

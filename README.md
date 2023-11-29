@@ -82,6 +82,8 @@ a directory - where it also stores all the configuration and plugins.
 * [Projects](https://github.com/marcusolsson/obsidian-projects)
 * [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 * [Book Search](https://github.com/anpigon/obsidian-book-search-plugin)
+* [Execute Code](https://github.com/twibiral/obsidian-execute-code)
+* [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
 
 ### Others
 

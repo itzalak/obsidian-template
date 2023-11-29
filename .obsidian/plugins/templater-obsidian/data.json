@@ -7,16 +7,22 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": false,
-  "folder_templates": [],
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "notes/scratch",
+      "template": "templates/scratch-template.md"
+    }
+  ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "templates/scratch-template.md"
   ],
   "startup_templates": [
     ""

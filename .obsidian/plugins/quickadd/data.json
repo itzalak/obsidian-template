@@ -104,7 +104,9 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "notes/cheatsheet"
+          "notes/cheatsheet",
+          "notes/cookbook",
+          "notes/tools"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
