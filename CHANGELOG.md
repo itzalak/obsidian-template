@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.3 (2024-03-02)
+
+### Changed
+
+- Update pre commit configuration
+
 ## v3.0.2 (2023-11-29)
 
 ### Changed
