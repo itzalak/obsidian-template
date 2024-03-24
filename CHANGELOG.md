@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.4 (2024-03-24)
+
+### Changed
+
+- Maintenance update
+
 ## v3.0.3 (2024-03-02)
 
 ### Changed
