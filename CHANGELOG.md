@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.5 (2024-03-24)
+
+### Changed
+
+- Refactor directories
+
 ## v3.0.4 (2024-03-24)
 
 ### Changed
