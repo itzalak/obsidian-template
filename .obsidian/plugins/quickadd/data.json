@@ -13,7 +13,8 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "backlog/tasks"
+          "notes",
+          "notes/tasks"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -43,8 +44,8 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "backlog/tasks",
-          "backlog/archive"
+          "archive",
+          "notes"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -74,7 +75,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "backlog/stack"
+          "notes/backlog"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -122,6 +123,36 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "8723b628-8075-4839-85a4-3d60a1ba6d92",
+      "name": "new-log",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/log-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}-log"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
     }
   ],
   "macros": [],

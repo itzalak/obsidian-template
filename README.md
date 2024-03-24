@@ -37,11 +37,7 @@ a directory - where it also stores all the configuration and plugins.
 ## Structure
 
 ```shell
-├── backlog
-│   ├── README.md
-│   ├── archive
-│   ├── stack
-│   └── tasks
+├── archive
 ├── bin
 ├── books
 │   ├── The Clean Coder - Robert C Martin.md
@@ -51,6 +47,7 @@ a directory - where it also stores all the configuration and plugins.
 │     ├── cheatsheet
 │     ├── cookbook
 │     ├── scratch
+│     ├── tasks
 │     └── zettlekasten
 └── templates
       ├── book-template.md

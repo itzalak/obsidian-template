@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "useMarkdownLinks": true,
-  "trashOption": "local"
+  "trashOption": "local",
+  "showInlineTitle": false
 }

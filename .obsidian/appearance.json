@@ -1,8 +1,11 @@
 {
   "accentColor": "",
-  "interfaceFontFamily": "Iosevka Nerd Font Mono,IosevkaTerm Nerd Font Mono",
-  "textFontFamily": "IosevkaTerm Nerd Font Mono",
+  "interfaceFontFamily": "Iosevka Nerd Font,Iosevka Nerd Font Mono,Iosevka Term",
+  "textFontFamily": "Iosevka Term,Iosevka Nerd Font Mono,Iosevka Nerd Font",
   "nativeMenus": false,
   "theme": "obsidian",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Iosevka Term,Iosevka Nerd Font,Iosevka Nerd Font Mono",
+  "baseFontSizeAction": true,
+  "showViewHeader": false
 }
